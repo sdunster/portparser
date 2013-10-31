@@ -10,7 +10,7 @@
 
 @interface NTPortParser : NSObject
 
-@property () NSString *description;
+@property (nonatomic) NSString *description;
 @property (readonly) NSString *shortDescription;
 @property (readonly, strong) NSString *shortType;
 @property (readonly, strong) NSString *number;
